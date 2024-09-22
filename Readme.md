@@ -33,32 +33,31 @@ sentiment-analysis-app/
 ### Backend
 
 1. Navigate to the `backend` directory:
-   ```bash
    cd backend
 
 2.Create and activate a virtual environment
-python -m venv .venv
-source .venv/bin/activate  # On Windows use `venv\Scripts\activate`
+   python -m venv .venv
+   source .venv/bin/activate 
 
 3.Install the required packages:
 
-pip install -r requirements.txt
+   pip install -r requirements.txt
 
 4.Run the Flask backend
-python SentimentModelServices.py
+   python SentimentModelServices.py
 
 ### UI
 1.Create and activate a virtual environment (optional):
 
-cd ui
-python -m venv venv
-source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+   cd ui
+   python -m venv venv
+   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 
 2. Install Required Packages
-pip install -r requirements.txt
+   pip install -r requirements.txt
 
 3.Run Streamlit App :
-streamlit run SentiUIApp.py
+   streamlit run SentiUIApp.py
 
 
 
